@@ -1,0 +1,38 @@
+{
+  "name": "react-query-code-genix",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.51.23",
+    "@tanstack/react-query-devtools": "^5.51.23",
+    "axios": "^1.7.3",
+    "express": "^4.19.2",
+    "json-server": "1.0.0-beta.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.2"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "^9.8.0",
+    "@rsbuild/core": "1.0.1-beta.11",
+    "@rsbuild/plugin-react": "1.0.1-beta.11",
+    "@tanstack/eslint-plugin-query": "^5.51.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^8.0.0"
+  }
+}
